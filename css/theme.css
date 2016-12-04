@@ -8650,3 +8650,38 @@ section[class*='elements-'] hr + .row {
 .vert-offset-bottom-0{
     margin-bottom: 0em;
 }
+@media all and (max-width: 767px) {
+  .vert-offset-bottom-0,
+  .vert-offset-bottom-1,
+  .vert-offset-bottom-2,
+  .vert-offset-bottom-3,
+  .vert-offset-bottom-4,
+  .vert-offset-bottom-5,
+  .vert-offset-bottom-6,
+  .vert-offset-bottom-7,
+  .vert-offset-bottom-8,
+  .vert-offset-bottom-9,
+  .vert-offset-bottom-10,
+  .vert-offset-bottom-11,
+  .vert-offset-bottom-12 {
+    margin-bottom: 0em;
+}
+}
+@media all and (max-width: 767px) {
+  .vert-offset-top-0,
+  .vert-offset-top-1,
+  .vert-offset-top-2,
+  .vert-offset-top-3,
+  .vert-offset-top-4,
+  .vert-offset-top-5,
+  .vert-offset-top-6,
+  .vert-offset-top-7,
+  .vert-offset-top-8,
+  .vert-offset-top-9,
+  .vert-offset-top-10,
+  .vert-offset-top-11,
+  .vert-offset-top-12 {
+    margin-top: 0em;
+}
+}
+
