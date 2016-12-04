@@ -143,15 +143,18 @@ h5 img  {
   mix-blend-mode: multiply;
 }
 
-#background-img {
-  left: 20%;
-  top: 150%;
-  position: absolute;
-}
 
-#background-img img {
-  height: 800px;
-  width: auto;
+@media all and (max-width: 768px) {
+  #background-crown {
+    right: -10em;
+    top: 50vh;
+    position: absolute;
+  }
+
+  #background-crown img {
+    height: 100vw;
+    mix-blend-mode: multiply;
+  }
 }
 
 .social-list li a {
