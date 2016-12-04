@@ -134,12 +134,12 @@ h5 img  {
 
 #background-crown {
   right: 50px;
-  bottom: -50%!important;
+  top: 50vh;
   position: absolute;
 }
 
 #background-crown img {
-  height: 800px;
+  height: 55vw;
   mix-blend-mode: multiply;
 }
 
