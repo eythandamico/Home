@@ -1878,7 +1878,6 @@ a {
 }
 /**! 12. Nav Bar **/
 nav {
-  background: none;
   z-index: 10;
 }
 .nav-bar {
@@ -2634,6 +2633,9 @@ img + .boxed {
   }
   .row:last-child div[class*='col-']:last-child .boxed:last-child {
     margin-bottom: 0;
+  }
+  .hire-boxed {
+    margin-top: 0em;
   }
 }
 /**! 19. Sliders **/
